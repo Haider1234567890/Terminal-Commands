@@ -1,0 +1,95 @@
+##Terminal commands
+
+#ifconfig en0 | grep net | awk ‘{print 2}’ | bcopy  
+(gets my IP)
+
+#security find-generic-password -wa “wifi network name” 
+(Finds wifi password)
+
+#cd ~/Desktop    
+(Navigation)
+
+#ls     
+(Lists everything in directory)
+
+#pwd   
+(Print working directory to find where you are)
+
+#df -h    
+(See how much space you have on hard drive)
+
+#man   
+(Learn about commands, press q to exit)
+
+#ping   
+(Ping websites to see if its active, press control and c to stop)
+
+#traceroute then website name   
+(shows every router you hit to get to website)
+
+#dig then website name    
+(gets dns information)
+
+#Ps -ax
+
+#clear
+
+#top  
+(See which processors are using the most cpu, press control and c to stop)
+#top -o size. 
+(Filter by size of memory)
+
+#ps - ax | grep “program name”
+#Kill -9 “process ID”                       
+(Stops program)
+
+#uptime   
+(see how long Mac has been up)
+
+#which $SHELL   
+(see which shell you are using)
+
+#bash    
+(switches to bash)
+
+#zsh      
+(switches back to zsh)
+
+
+#dif file1 file2  
+(Compare 2 files)
+
+#curl “website url” > destination     
+(download files)
+
+#curl wttr.in/afghanistan    
+(curls the weather)
+
+#history     
+(see history of all commands)
+
+##Cooler ones
+
+#cmatrix    
+(matrix) press q to exit
+
+#asciiquarium   
+(aquarium)
+
+#toilet haider nazar  
+(turns text into art)
+
+#brew install samtay/tui/tetris
+#tetris                                            
+(play tetris)
+
+#python3 -m http.server
+#Go on browser and type localhost:8000
+
+#sudo killall -HUP mDNSResponder       
+(clears dns cache)
+
+#sudo nano /etc/pam.d/sudo
+#auth sufficient pam_tid.so
+#Control and x then y then enter
+(Uses fingerprint instead of password for any command that require a password)

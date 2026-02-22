@@ -41,7 +41,7 @@
 
 ## ps - ax | grep “program name”
 ## Kill -9 “process ID”                       
-> Stops program; kill 😈
+> Stops program; kill
 
 ## uptime   
 > See how long Mac has been up
@@ -71,17 +71,17 @@
 # Cooler ones
 
 ## cmatrix    
-> matrix, press q to exit 😎
+> matrix, press q to exit
 
 ## asciiquarium   
-> aquarium 🐟
+> aquarium
 
-## toilet haider nazar  
-> turns text into art 🚽
+## toilet (name)  
+> turns text into art
 
 ## brew install samtay/tui/tetris
 ## tetris                                            
-> play tetris 😳
+> play tetris
 
 ## python3 -m http.server
 Go on browser and type localhost:8000
